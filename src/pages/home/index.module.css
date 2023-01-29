@@ -3,4 +3,30 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 15em;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: all 0.3s;
+  filter: blur(10px);
+}
+
+.text:hover {
+  filter: none;
+  /* transform: translate(-50%, -50%) scale(1.1); */
+  cursor: pointer;
+}
+
+.root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #12071f;
+  position: relative;
 }
